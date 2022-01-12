@@ -1,0 +1,19 @@
+{
+  "name": "mockme",
+  "version": "0.1.0",
+  "description": "Dockerized mock backend",
+  "author": "Blaise Gaillard <first.last@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zouff/mockme"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security"
+  }
+}
