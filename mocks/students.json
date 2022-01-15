@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "John Doe",
+    "Grade": "3rd",
+    "Classroom": "3B"
+  },
+  {
+    "Name": "Jane Doe",
+    "Grade": "3rd",
+    "Classroom": "3A"
+  }
+]
