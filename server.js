@@ -11,6 +11,8 @@ const MOCKSDIRECTORY = 'mocks';
 
 // App
 const app = express();
+app.use(express.json());
+
 fs.readdir(MOCKSDIRECTORY, (err, files) => {
   files.forEach(file => {
     let mockData = fs.readFileSync(MOCKSDIRECTORY + '/' + file);
